@@ -1,0 +1,25 @@
+nav {
+
+    ul {
+        line-height: 3;
+
+        li {
+            transition: .3s;
+            padding: 0 10px;
+            outline: none;
+
+            &:hover {
+                cursor: pointer;
+                background-color: #3C3C3C;
+            }
+            &:hover a {
+                color: white;
+            }
+
+            a {
+                transition: .3s;
+                color:  #B4B4B4;
+            }
+        } 
+    }
+}

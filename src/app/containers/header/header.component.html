@@ -1,0 +1,12 @@
+<header>
+  <div class="wrapper">
+    <img [src]="logoUrl" alt={{title}} title={{title}}>
+    <!-- <input [(ngModel)]="search" type="text" placeholder="find task..."/> -->
+    <app-nav></app-nav>
+    <ul>
+      <li><a routerLink="/auth/login">Log In</a></li>
+      <span>or</span>
+      <li><a routerLink="/auth/register">Register</a></li>
+    </ul>
+  </div>
+</header>

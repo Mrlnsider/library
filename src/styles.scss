@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #f7f7f7;
+}
+ul,ol {
+    list-style-type: none;
+}
+  
+.clearfix::before {
+    content: '';
+    display: table;
+    clear: both;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+}
+.container {
+    width: 100%;
+    max-width: 768px;
+    margin: auto;
+}

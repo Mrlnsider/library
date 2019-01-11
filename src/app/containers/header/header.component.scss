@@ -1,0 +1,32 @@
+header {
+    background-color: #696969;
+    color: #B4B4B4;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            width: auto;
+            height: 50px;
+        }
+    
+        ul {
+            display: flex;
+            
+            li {
+                margin: 0 10px;
+    
+                a {
+                    color:white;
+                    transition: .3s;
+    
+                    &:hover {
+                        color: #B4B4B4;
+                    }
+                }
+            }
+        }
+    }
+}
